@@ -1,0 +1,133 @@
+/* Tablet/Mobile */
+@media (max-width: 1023px) {
+    .remove-tablet-mobile {
+        display: none;
+    }
+
+    .header-bars i {
+        display: block;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header-body {
+        justify-content: space-between;
+    } 
+
+    .hero-right {
+        padding: 14px 0;
+        display: block;
+        padding: 0;
+        width: 88%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-body,
+    .hero-right-group {
+        justify-content: center;
+    }
+    
+    .nav-item {
+        padding: 14px 0;
+    } 
+
+    .link-mobile-tablet {
+        margin: 0;
+        display: block;
+        color: #171100;
+    } 
+    
+    .features-body,
+    .features-2nd-body {
+    flex-direction: column;
+    }
+
+    .features-images {
+        justify-content: center;
+    }
+
+    .features-2nd-content,
+    .features-content {
+        width: 60%;
+        text-align: center;
+        margin: 30px auto 0;
+    }
+
+    .features-2nd-images {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item {
+        margin-top: 30px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .remove-tablet {
+        display: none;
+    }
+
+    .footer-item,
+    .footer-item:first-child {
+        width: 50%;
+    }
+}
+
+/*Mobile */
+@media (max-width: 739px) {
+    .remove-mobile {
+        display: none;
+    }
+
+    .popular-top {
+        flex-direction: column;
+    } 
+
+    .footer-item,
+    .footer-item:first-child {
+        width: 100%;
+    }
+
+    .btn.nav-sign {
+        display: none;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        border-top: 1px solid #ccc;
+    }
+
+    .popular-info {
+        text-align: center;
+    }
+
+    .features-images img,
+    .features-2nd-images img {
+        width: calc(100% - 50%);
+    }
+
+    .blog-top p,
+    .popular-desc,
+    .features-2nd-content p,
+    .features-content p {
+        width: 90%;
+    }
+
+    .features-content p,
+    .popular-desc,
+    .features-2nd-content p {
+        display: inline-block;
+    }
+}
