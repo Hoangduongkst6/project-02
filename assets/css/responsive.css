@@ -145,4 +145,8 @@
     blockquote {
         font-size: 2.2rem;
     }
+
+    .hero-right-icon {
+        width: 55px;
+    }
 }
