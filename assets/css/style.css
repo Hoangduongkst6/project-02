@@ -30,6 +30,8 @@ html {
     font-weight: 700;
     letter-spacing: -0.02em;
     color: #171100;
+    font-size: 3.8rem;
+    line-height: 1.26;
 }
 
 .line-clamp {
@@ -333,6 +335,7 @@ nav.header-nav {
 .popular-desc {
     margin-top: 16px;
     width: 458px;
+    max-width: 100%;
     font-size: 1.8rem;
     line-height: 1.67;
     color: #5f5b53;
@@ -559,12 +562,8 @@ blockquote {
     width: 41%;
 }
 
-.features-content h2 {
-    font-size: 3.8rem;
-    line-height: 1.26;
-}
-
 .features-content p {
+    max-width: 100%;
     margin-top: 16px;
     font-size: 1.6rem;
     line-height: 1.75;
@@ -594,13 +593,9 @@ blockquote {
     width: 49%;
 }
 
-.features-2nd-content h2 {
-    font-size: 3.8rem;
-    line-height: 1.26;
-}
-
 .features-2nd-content p {
     margin-top: 16px;
+    max-width: 100%;
     font-size: 1.6rem;
     line-height: 1.75;
     color: #5f5b53;
@@ -632,14 +627,10 @@ blockquote {
     text-align: center;
 }
 
-.blog-top h2 {
-    font-size: 3.8rem;
-    line-height: 1.26;
-}
-
 .blog-top p {
     margin: 16px auto auto;
     width: 448px;
+    max-width: 100%;
     font-size: 1.6rem;
     line-height: 1.75;
     color: #696262;
